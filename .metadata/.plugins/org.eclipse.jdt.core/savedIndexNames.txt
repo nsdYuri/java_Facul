@@ -1,0 +1,5 @@
+INDEX VERSION 1.132+C:\FIAP\aula_JAVA\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1129872323.index
+1918560447.index
+2664444205.index

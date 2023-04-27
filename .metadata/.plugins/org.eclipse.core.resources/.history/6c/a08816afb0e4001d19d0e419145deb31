@@ -1,0 +1,18 @@
+package br.com.fiap.motors.model;
+
+public class View {
+	
+	//Como essa sera a classe executada, precisamos do metodo main
+	public static void main(String[] args) {
+		
+		Carro discovery = new Carro();
+		String modelo = "HSE";
+		int ano = 2023;
+		double valor = 1.500000;
+		
+		System.out.println("O mais novo carro da range rover no modelo " + discovery.modelo + " edicao do ano de "
+				+ discovery.ano + " esta custando a bagatela de: " + discovery.valor);
+		
+	}
+
+}
