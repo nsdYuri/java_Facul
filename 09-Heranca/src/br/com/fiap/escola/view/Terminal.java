@@ -1,5 +1,5 @@
-package br.com.fiap.view;
-import br.com.fiap.model.*;
+package br.com.fiap.escola.view;
+import br.com.fiap.escola.model.*;
 
 public class Terminal {
 	public static void main(String[] args) {

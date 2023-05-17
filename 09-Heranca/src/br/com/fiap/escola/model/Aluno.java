@@ -1,4 +1,4 @@
-package br.com.fiap.model;
+package br.com.fiap.escola.model;
 
 public class Aluno extends Pessoa {
 	
