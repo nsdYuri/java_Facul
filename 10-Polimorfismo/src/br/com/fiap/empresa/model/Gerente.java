@@ -22,6 +22,14 @@ public class Gerente extends Funcionario{
 		return aumentou;
 	}
 	
+	//Sobrescrever o metodo aumentarSalario que recebe o double
+	//Aumentar o salario de acordo com a porcentagem e aumentar o bonus com a %
+	@Override
+	public void aumentarSalario(double porcentagem) {
+		bonus *= porcentagem / 100 + 1;
+		super.aumentarSalario(porcentagem); //Chamando o metodo do Funcionario (Pai)
+	}
+	
 	public Gerente() {
 	}
 	
